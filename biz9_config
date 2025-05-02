@@ -1,6 +1,6 @@
-VERSION='2.9.6'
+VERSION='2.9.7'
 TITLE="901-Corp-React";
-REPO="git@github.com:biz9framework/901-corp-react.git";
+REPO="git@github.com:bossappz/901-corp-react.git";
 BRANCH="main";
 APP_TITLE_ID="dg-cms-feb28";
 URL="http://localhost:1904";
