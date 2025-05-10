@@ -1,4 +1,4 @@
-VERSION='3.0.0'
+VERSION='3.0.1'
 TITLE="901-Corp-React";
 REPO="git@github.com:bossappz/901-corp-react.git";
 BRANCH="main";
