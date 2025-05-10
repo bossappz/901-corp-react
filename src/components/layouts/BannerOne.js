@@ -2,12 +2,11 @@ import React, { useState,Component } from 'react';
 import {Link} from "react-router-dom";
 import {Log,Number,Str} from "biz9-utility";
 import {DataItem,DataType,Url,BiZ_Url,CMS,TemplateType,PageType,Business} from "biz9-logic";
-
 class BannerOne extends Component {
     render() {
         return (
-            <div className="cm-banner overlay bg-cover" style={{backgroundImage: "url({this.props.page.section_1.photo_data})"}}>
-                <div className="container h-100">
+            <div className="cm-banner overlay bg-cover" style={{backgroundImage:"url("+this.props.page.section_1.photo_data+")"}}>
+                 <div className="container h-100">
                     <div className="row h-100 align-items-center">
                         <div className="col-xl-6 col-lg-7">
                             <div className="block text-white">
